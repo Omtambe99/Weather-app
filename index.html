@@ -36,7 +36,10 @@
       <!-- Weather Data View -->
       <div id="weatherView" style="display: none;">
         <div class="location-date">
-          <div class="city"><img class="location-img" src="/asset/icon/location.png"/><h2> <span id="cityName">City</span></h2></div>
+          <div class="city">
+            <img class="location-img" src="/asset/icon/location.png"/>
+            <h2><span id="cityName">City</span></h2>
+          </div>
           <div class="date" id="dateToday">Date</div>
         </div>
 
@@ -60,13 +63,18 @@
               <img src="/asset/icon/air.png" alt="wind_speed">
             </span>
             <div class="info-row">
-              <div class="Wind-Speed-text">Wind Speed<br><span id="wind">-- M/s</span></div>
+              <div class="Wind-Speed-text">Wind Speed <span id="wind">-- M/s</span></div>
             </div>
           </div>
         </div>
 
           
-        <div class="forecast" id="forecastContainer"></div>
+        <div class="forecast" id="forecastContainer">
+        <div class="forecast-item">
+          <div class="forecast-date">Mon</div>
+          <img src="/asset/icon/cloudy.png" alt="Cloudy" class="forecast-icon">
+          <div class="forecast-temp">28°C</div>
+     
       </div>
     </div>
   </div>

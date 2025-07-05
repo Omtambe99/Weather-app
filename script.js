@@ -51,7 +51,13 @@ function fetchWeather(city) {
       dateToday.textContent = now.toDateString().slice(0, 10);
       temp.textContent = `${Math.round(data.main.temp)}°C`;
       desc.textContent = data.weather[0].main;
-      icon.src = `http://openweathermap.org/img/wn/${data.weather[0].icon}@2x.png`;
+
+      // Set weather icon
+      const weatherIcon = document.getElementById('weatherIcon');
+      const iconCode = data.weather[0].icon; // OpenWeatherMap icon code
+      weatherIcon.src = `http://openweathermap.org/img/wn/${iconCode}@2x.png`;
+      weatherIcon.alt = data.weather[0].description;
+
       humidity.textContent = `${data.main.humidity}%`;
       wind.textContent = `${data.wind.speed} M/s`;
     })
@@ -79,10 +85,10 @@ function fetchWeather(city) {
       futureDays.forEach((date) => {
         const iconURL = `http://openweathermap.org/img/wn/${days[date].icon}@2x.png`;
         forecastContainer.innerHTML += `
-          <div class="day">
-            <div>${formatDate(date)}</div>
-            <img src="${iconURL}" alt="icon" />
-            <div>${Math.round(days[date].temp)}°C</div>
+          <div class="forecast-item">
+            <div class="forecast-date">${formatDate(date)}</div>
+            <img src="${iconURL}" alt="icon" class="forecast-icon" />
+            <div class="forecast-temp">${Math.round(days[date].temp)}°C</div>
           </div>`;
       });
     });
