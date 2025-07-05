@@ -6,7 +6,7 @@
   <title>Weather App</title>
   <link rel="stylesheet" href="style.css" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=cool_to_dry" />
+  <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=cool_to_dry" /> -->
 </head>
 <body>
   <div class="container">
@@ -23,7 +23,7 @@
       <div id="defaultView" class="center-content">
         <img src="/asset/message/search-city.png" alt="404" class="error-img" />
         <h3>Search City</h3>
-        <p>Find out the weather conditions of the city</p>
+        <p>Find out the weather conditions of the city </p>
       </div>
 
       <!-- Error View -->
@@ -45,16 +45,27 @@
           <div class="temp" id="temp">--°C</div>
           <div class="description" id="description">--</div>
         </div>
-        <div class="weather-summary-container">
-          <span class="material-symbols-outlined" style="height:20px ;">
-            cool_to_dry
+        <!-- weather summary -->
+        <div class="weather-summary-row">
+          <div class="weather-summary-container">
+            <span class="material-symbols-outlined" style="height:20px;">
+              <img src="/asset/icon/water_drop.png" alt="humidity">
             </span>
-        <div class="info-row">
-          <div class="humidity-text">Humidity<br><span id="humidity">--%</span></div>
+            <div class="info-row">
+              <div class="humidity-text">Humidity<br><span id="humidity">--%</span></div>
+            </div>
+          </div>
+          <div class="weather-summary-container">
+            <span class="material-symbols-outlined">
+              <img src="/asset/icon/air.png" alt="wind_speed">
+            </span>
+            <div class="info-row">
+              <div class="Wind-Speed-text">Wind Speed<br><span id="wind">-- M/s</span></div>
+            </div>
+          </div>
         </div>
-      </div>
-      <div class="Wind-Speed-text">Wind Speed<br><span id="wind">-- M/s</span></div>
-      
+
+          
         <div class="forecast" id="forecastContainer"></div>
       </div>
     </div>
