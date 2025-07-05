@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Poppins", sans-serif;
-  background: url("https://omtambe99.github.io/assets/ibg.jpg") no-repeat center center/cover;
+  background: url("/asset/bg.jpg") no-repeat center center/cover;
   height: 100vh;
   display: flex;
   background-size: cover;
