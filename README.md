@@ -19,7 +19,11 @@ Powered by public APIs, it offers **real-time weather updates**, beautiful visua
 
 ## 🔍 Demo
 
-![Weather App Screenshot](assets/demo-screenshot.png)
+![Weather App Screenshot](assets/Deployment/Defaut-ss.png)
+
+![Weather App Screenshot](assets/Deployment/City-wetaher-ss.png)
+
+![Weather App Screenshot](assets/Deployment/errror-ss.png)
 
 🚀 **Try it live:** [Click here](https://omtambe99.github.io/Weather-app/) 
 
