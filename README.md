@@ -22,14 +22,9 @@ Powered by public APIs, it offers **real-time weather updates**, beautiful visua
 <p align="center">
   <img src="asset/Deployment/Defaut-ss.PNG" alt="Weather App Screenshot 1" width="500"/>
   <img src="asset/Deployment/City-wetaher-ss.PNG" alt="Weather App Screenshot 2" width="500"/>
-  <img src="asset/Deployment/errror-ss.PNG" alt="Weather App Screenshot 3" width="400"/>
+  <img src="asset/Deployment/errror-ss.PNG" alt="Weather App Screenshot 3" width="600"/>
 </p>
 
-![Weather App Screenshot](asset/Deployment/Defaut-ss.PNG)
-
-![Weather App Screenshot](asset/Deployment/City-wetaher-ss.PNG)
-
-![Weather App Screenshot](asset/Deployment/errror-ss.PNG)
 
 🚀 **Try it live:** [Click here](https://omtambe99.github.io/Weather-app/) 
 
