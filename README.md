@@ -20,9 +20,9 @@ Powered by public APIs, it offers **real-time weather updates**, beautiful visua
 ## 🔍 Demo
 
 <p align="center">
-  <img src="asset/Deployment/Defaut-ss.PNG" alt="Weather App Screenshot 1" width="200"/>
-  <img src="asset/Deployment/City-wetaher-ss.PNG" alt="Weather App Screenshot 2" width="200"/>
-  <img src="asset/Deployment/errror-ss.PNG" alt="Weather App Screenshot 3" width="200"/>
+  <img src="asset/Deployment/Defaut-ss.PNG" alt="Weather App Screenshot 1" width="600"/>
+  <img src="asset/Deployment/City-wetaher-ss.PNG" alt="Weather App Screenshot 2" width="600"/>
+  <img src="asset/Deployment/errror-ss.PNG" alt="Weather App Screenshot 3" width="600"/>
 </p>
 
 ![Weather App Screenshot](asset/Deployment/Defaut-ss.PNG)
