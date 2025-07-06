@@ -19,7 +19,7 @@ Powered by public APIs, it offers **real-time weather updates**, beautiful visua
 
 ## 🔍 Demo
 
-![Weather App Screenshot](asset/Deployment/Defaut-ss.png)
+![Weather App Screenshot](asset/Deployment/Defaut-ss.PNG)
 
 ![Weather App Screenshot](asset/Deployment/City-wetaher-ss.png)
 
