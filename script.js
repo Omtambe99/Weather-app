@@ -1,4 +1,6 @@
-const apiKey = "1c355ec6c92a4f4c90aa1f5f9aed8004";
+document.addEventListener('DOMContentLoaded',() => {
+
+  const apiKey = "1c355ec6c92a4f4c90aa1f5f9aed8004";
 
 
 
@@ -99,3 +101,6 @@ function formatDate(dateStr) {
   const options = { month: "short", day: "numeric" };
   return d.toLocaleDateString(undefined, options);
 }
+
+
+})
